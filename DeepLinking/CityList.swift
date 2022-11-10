@@ -5,11 +5,12 @@ struct CityList: View {
     
     var body: some View {
         List(county.cities, id: \.self) { city in
-            NavigationLink {
-                CityDetails(city: city)
-            } label: {
+            NavigationLink(value: city) {
                 Text(city)
             }
+        }
+        .navigationDestination(for: String.self) { city in
+            CityDetails(city: city)
         }
         .navigationTitle("\(county.name) Cities")
     }

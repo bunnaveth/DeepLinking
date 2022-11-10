@@ -1,14 +1,10 @@
 import SwiftUI
 
 @main
-struct DeepLinkingApp: App {
-    private var navPath = NavigationPath()
-    
+struct DeepLinkingApp: App {    
     var body: some Scene {
         WindowGroup {
-            NavigationStack() {
-                StateList()
-            }
+            StateList()
         }
     }
 }

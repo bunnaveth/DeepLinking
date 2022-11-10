@@ -53,6 +53,7 @@
 		A6EDBD4F290C7E9500537933 /* DeepLinkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepLinkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6EDBD53290C7E9500537933 /* DeepLinkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkingUITests.swift; sourceTree = "<group>"; };
 		A6EDBD55290C7E9500537933 /* DeepLinkingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D9B3EE93291CA6CA0075D955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +105,7 @@
 		A6EDBD37290C7E9300537933 /* DeepLinking */ = {
 			isa = PBXGroup;
 			children = (
+				D9B3EE93291CA6CA0075D955 /* Info.plist */,
 				A6EDBD38290C7E9300537933 /* DeepLinkingApp.swift */,
 				A6EDBD3A290C7E9300537933 /* StateList.swift */,
 				A6E019092912D6A50058482F /* CountyList.swift */,
@@ -437,6 +439,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"DeepLinking/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeepLinking/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -465,6 +468,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"DeepLinking/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeepLinking/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

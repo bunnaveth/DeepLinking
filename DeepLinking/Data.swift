@@ -1,21 +1,22 @@
 import Foundation
 
-struct State: Identifiable {
+struct USState: Hashable, Identifiable {    
     let name: String
     let counties: [County]
     
     var id: String { name }
 }
 
-struct County: Identifiable {
+struct County: Hashable, Identifiable {
     let name: String
     let cities: [String]
     
     var id: String { name }
 }
 
-var usStates: [State] = [
-    State(name: "Califorina", counties: [
+
+var usStates: [USState] = [
+    USState(name: "Califorina", counties: [
         County(name: "San Diego", cities: [
             "Alpine",
             "Bonita",
@@ -70,7 +71,7 @@ var usStates: [State] = [
             "Warner Springs"
         ]),
     ]),
-    State(name: "Utah", counties: [
+    USState(name: "Utah", counties: [
             County(name: "Utah", cities: [
                 "Alpine City",
                 "American Fork City",
